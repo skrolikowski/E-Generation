@@ -2,7 +2,7 @@
 
 D/Generation game clone. WIP
 
-![Screenshot](https://raw.githubusercontent.com/skrolikowski/E-Generation/master/assets/screenshots/capture01.png)
+![Screencap](https://raw.githubusercontent.com/skrolikowski/E-Generation/master/assets/screenshots/capture01.PNG)
 
 ## Getting Started
 
