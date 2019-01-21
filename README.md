@@ -2,6 +2,8 @@
 
 D/Generation game clone. WIP
 
+![Screenshot](https://raw.githubusercontent.com/skrolikowski/E-Generation/master/assets/screenshots/capture01.png)
+
 ## Getting Started
 
 * Download or clone the repository.

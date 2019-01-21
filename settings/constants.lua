@@ -92,11 +92,11 @@ QUAD = {
 
 AUDIO = {
     unit = {
-        love.audio.newSource('assets/audio/footstep05.ogg'),
+        love.audio.newSource('assets/audio/footstep05.ogg', 'stream'),
     },
     particle = {
-        love.audio.newSource('assets/audio/laser2.ogg'),
-        love.audio.newSource('assets/audio/laser4.ogg'),
+        love.audio.newSource('assets/audio/laser2.ogg', 'stream'),
+        love.audio.newSource('assets/audio/laser4.ogg', 'stream'),
     }
 }
 
@@ -129,45 +129,45 @@ ANGLES = {
 
 UI = {
     color = {
-        white  = {255,255,255},
+        white  = UColor:query('white'),
         scheme = {
             {
-                {25,25,25,255},     -- top fill color
-                {17,45,78,255},     -- left fill color
-                {0,0,0,255},        -- right fill color
-                {245,245,245,255},  -- top line color
+                UColor:rgbToComponent({25,25,25,255}),     -- top fill color
+                UColor:rgbToComponent({17,45,78,255}),     -- left fill color
+                UColor:rgbToComponent({0,0,0,255}),        -- right fill color
+                UColor:rgbToComponent({245,245,245,255}),  -- top line color
             }
         },
         door = {
             O = {
-                {249,126,32,255},
-                {249,126,32,255},
-                {249,126,32,255},
+                UColor:rgbToComponent({249,126,32,255}),
+                UColor:rgbToComponent({249,126,32,255}),
+                UColor:rgbToComponent({249,126,32,255}),
             },
             R = {
-                {151,0,37,255},
-                {151,0,37,255},
-                {151,0,37,255},
+                UColor:rgbToComponent({151,0,37,255}),
+                UColor:rgbToComponent({151,0,37,255}),
+                UColor:rgbToComponent({151,0,37,255}),
             },
             Y = {
-                {255,209,49,255},
-                {255,209,49,255},
-                {255,209,49,255},
+                UColor:rgbToComponent({255,209,49,255}),
+                UColor:rgbToComponent({255,209,49,255}),
+                UColor:rgbToComponent({255,209,49,255}),
             },
             B = {
-                {15,50,116,255},
-                {15,50,116,255},
-                {15,50,116,255},
+                UColor:rgbToComponent({15,50,116,255}),
+                UColor:rgbToComponent({15,50,116,255}),
+                UColor:rgbToComponent({15,50,116,255}),
             },
             P = {
-                {184,5,91,255},
-                {184,5,91,255},
-                {184,5,91,255},
+                UColor:rgbToComponent({184,5,91,255}),
+                UColor:rgbToComponent({184,5,91,255}),
+                UColor:rgbToComponent({184,5,91,255}),
             },
             H = {
-                {25,25,25,255},
-                {17,45,78,255},
-                {0,0,0,255},
+                UColor:rgbToComponent({25,25,25,255}),
+                UColor:rgbToComponent({17,45,78,255}),
+                UColor:rgbToComponent({0,0,0,255}),
             },
         },
     },

@@ -4,7 +4,7 @@ function love.conf(t)
     io.stdout:setvbuf('no')
 
     t.identity = 'project-dgen'
-    t.version  = '0.10.2'
+    t.version  = '11.1'
     t.console  = false
 
     t.window.title      = 'DGen'
